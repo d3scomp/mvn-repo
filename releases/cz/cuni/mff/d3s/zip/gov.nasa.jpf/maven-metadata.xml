@@ -3,10 +3,11 @@
   <groupId>cz.cuni.mff.d3s.zip</groupId>
   <artifactId>gov.nasa.jpf</artifactId>
   <versioning>
-    <release>6.0</release>
+    <release>6.0b</release>
     <versions>
       <version>6.0</version>
+      <version>6.0b</version>
     </versions>
-    <lastUpdated>20121119084801</lastUpdated>
+    <lastUpdated>20130121150806</lastUpdated>
   </versioning>
 </metadata>
