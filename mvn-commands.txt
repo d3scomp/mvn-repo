@@ -1,0 +1,8 @@
+Putting the jDEECo snaphot to mvn-repo.
+Replace path to the snapshot repository with your own. And run it from jdeeco-core and 
+
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:D:/githubmaven/mvn-repo/snapshots clean deploy
+
+For deploying a zip file to your local mvn-repo git repository issue the following command:
+
+mvn deploy:deploy-file -DgroupId=cz.cuni.mff.d3s.zip -DartifactId=gov.nasa.jpf -Dversion=6.0b -Dpackaging=zip -Dfile=gov.nasa.jpf-6b.zip -DrepositoryId=release-repo -Durl=file:D:/githubmaven/mvn-repo/releases
