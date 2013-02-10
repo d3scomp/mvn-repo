@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>cz.cuni.mff.d3s.jdeeco.core</groupId>
+  <groupId>cz.cuni.mff.d3s.jdeeco</groupId>
   <artifactId>cz.cuni.mff.d3s.jdeeco.core</artifactId>
   <versioning>
+    <release>0.0.1.qualifier</release>
     <versions>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1.qualifier</version>
     </versions>
-    <lastUpdated>20121128142819</lastUpdated>
+    <lastUpdated>20130210094228</lastUpdated>
   </versioning>
 </metadata>

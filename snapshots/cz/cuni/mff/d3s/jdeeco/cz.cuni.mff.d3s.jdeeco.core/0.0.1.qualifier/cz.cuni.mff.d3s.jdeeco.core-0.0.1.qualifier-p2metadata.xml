@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='cz.cuni.mff.d3s.jdeeco.core' version='0.0.1.201302100942' singleton='false'>
+    <update id='cz.cuni.mff.d3s.jdeeco.core' range='[0.0.0,0.0.1.201302100942)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='jDEECo Core'/>
+      <property name='maven-groupId' value='cz.cuni.mff.d3s.jdeeco'/>
+      <property name='maven-artifactId' value='cz.cuni.mff.d3s.jdeeco.core'/>
+      <property name='maven-version' value='0.0.1.qualifier'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='cz.cuni.mff.d3s.jdeeco.core' version='0.0.1.201302100942'/>
+      <provided namespace='osgi.bundle' name='cz.cuni.mff.d3s.jdeeco.core' version='0.0.1.201302100942'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='cz.cuni.mff.d3s.jini' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.bcel' range='5.2.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='cz.cuni.mff.d3s.jdeeco.core' version='0.0.1.201302100942'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: cz.cuni.mff.d3s.jdeeco.core&#xA;Bundle-Version: 0.0.1.201302100942&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
