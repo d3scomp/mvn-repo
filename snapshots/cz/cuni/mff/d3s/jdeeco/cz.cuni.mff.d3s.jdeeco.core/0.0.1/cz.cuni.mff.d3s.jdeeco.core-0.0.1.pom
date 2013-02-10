@@ -7,7 +7,7 @@
     <relativePath>../jdeeco-parent/pom.xml</relativePath>
   </parent>
   <artifactId>cz.cuni.mff.d3s.jdeeco.core</artifactId>
-  <version>0.0.1.qualifier</version>
+  <version>0.0.1</version>
   <packaging>eclipse-plugin</packaging>
   <build>
 		<sourceDirectory>src</sourceDirectory>
