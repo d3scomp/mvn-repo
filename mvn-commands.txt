@@ -1,7 +1,7 @@
 Putting the jDEECo snaphot to mvn-repo.
 Replace path to the snapshot repository with your own. And run it from jdeeco-core and 
 
-mvn -DaltDeploymentRepository=snapshot-repo::default::file:D:/githubmaven/mvn-repo/snapshots clean deploy
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:D:/GitHub/mvn-repo/snapshots clean deploy
 
 For deploying a zip file to your local mvn-repo git repository issue the following command:
 
