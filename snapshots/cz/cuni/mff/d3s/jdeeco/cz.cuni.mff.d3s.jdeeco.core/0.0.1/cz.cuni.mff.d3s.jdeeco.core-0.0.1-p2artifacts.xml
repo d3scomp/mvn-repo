@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='cz.cuni.mff.d3s.jdeeco.core' version='0.0.1'>
     <properties size='5'>
-      <property name='artifact.size' value='155346'/>
-      <property name='download.size' value='155346'/>
+      <property name='artifact.size' value='157027'/>
+      <property name='download.size' value='157027'/>
       <property name='maven-groupId' value='cz.cuni.mff.d3s.jdeeco'/>
       <property name='maven-artifactId' value='cz.cuni.mff.d3s.jdeeco.core'/>
       <property name='maven-version' value='0.0.1'/>
