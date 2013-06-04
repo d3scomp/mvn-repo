@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cz.cuni.mff.d3s.jdeeco.jpf</groupId>
+	<artifactId>jpf-ltl-libs</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>cz.cuni.mff.d3s.jdeeco.jpf</groupId>
+			<artifactId>jpf-ltl</artifactId>
+			<version>0.0.1</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>cz.cuni.mff.d3s.jdeeco.jpf</groupId>
+			<artifactId>jpf-ltl-classes</artifactId>
+			<version>0.0.1</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>cz.cuni.mff.d3s.jdeeco.jpf</groupId>
+			<artifactId>ltl2buchi</artifactId>
+			<version>0.0.1</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>d3s-releases</id>
+			<url>https://github.com/d3scomp/mvn-repo/raw/master/releases/</url>
+		</repository>
+	</repositories>
+</project>
